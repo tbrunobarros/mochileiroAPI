@@ -30,4 +30,4 @@ Para rodar a aplicação basta executar o comando: `npm run start`
 
 ## Visualizando a documentação da API
 
-Pra visualizar o swagger da aplicação é necessário após rodar a aplicação acessar a rota: [http://localhost:<porta>/documentation](http://localhost:<porta>/documentation)
+Pra visualizar o swagger da aplicação é necessário rodar a API e acessar a rota: [http://localhost:<porta>/documentation](http://localhost:<porta>/documentation)
