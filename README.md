@@ -22,7 +22,12 @@ AWESOMEAPI_URL_BASE=https://economia.awesomeapi.com.br
 
 Para rodar a aplicação basta executar o comando: `npm run start`
 
+
 ## Rodando os Testes
 
 1. Para rodar os testes é necessário instalar o mocha no contexto global `npm install mocha -g`
 2. Execute o comando no seu terminal de : `npm run test`
+
+## Visualizando a documentação da API
+
+Pra visualizar o swagger da aplicação é nessario após rodar a aplicação acessar a rota: [http://localhost:<porta>/documentation](http://localhost:<porta>/documentation)
