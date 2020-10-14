@@ -11,5 +11,7 @@ config({
 
 module.exports = {    
   PORT: process.env.PORT,
-  IBGE_URL_BASE: process.env.IBGE_URL_BASE
+  IBGE_URL_BASE: process.env.IBGE_URL_BASE,
+  OPEN_WEATHER_MAP_URL_BASE: process.env.OPEN_WEATHER_MAP_URL_BASE,
+  OPEN_WEATHER_MAP_URL_KEY_APP: process.env.OPEN_WEATHER_MAP_URL_KEY_APP
 };
