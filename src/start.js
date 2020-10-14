@@ -16,6 +16,7 @@ async function start() {
       title: 'API do Mochileiro',
       version: 'v1.0',
     },
+    grouping: 'tags',
     lang: 'pt',
   }
 
@@ -37,4 +38,4 @@ async function start() {
   return app
 }
 
-start()
+module.exports = start()

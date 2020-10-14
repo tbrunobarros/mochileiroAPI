@@ -25,7 +25,7 @@ class ClimaRoute extends BaseRoute {
       path: '/obter-clima',
       method: 'GET',
       config: {
-        tags: ['api'],
+        tags: ['api', 'clima'],
         description: 'Listagem do clima por cidade',
         notes: 'Consulta o clima de acordo com a cidade informada',
         validate: {

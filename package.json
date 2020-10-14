@@ -1,14 +1,14 @@
 {
   "name": "mochileiro",
   "version": "1.0.0",
-  "description": "",
+  "description": "API do Mochileiro",
   "main": "start.js",
   "scripts": {
     "start": "node src/start.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test/*.test.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "tbrunobarros",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.20.0",
@@ -20,5 +20,8 @@
     "joi": "^14.1.0",
     "postinstall": "^0.7.0",
     "vision": "^5.4.4"
+  },
+  "devDependencies": {
+    "mocha": "^8.1.3"
   }
 }

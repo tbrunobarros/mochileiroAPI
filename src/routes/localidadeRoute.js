@@ -17,7 +17,7 @@ class LocalidadeRoute extends BaseRoute {
       path: '/obter-estados',
       method: 'GET',
       config: {
-        tags: ['api'],
+        tags: ['api', 'localidade'],
         description: 'Listagem de estados',
         notes: 'Consulta uma lista de estados',
         validate: {
@@ -50,7 +50,7 @@ class LocalidadeRoute extends BaseRoute {
       path: '/obter-estados/{id}',
       method: 'GET',
       config: {
-        tags: ['api'],
+        tags: ['api', 'localidade'],
         description: 'Obter um estado',
         notes: 'Consulta um estado',
         validate: {
@@ -88,7 +88,7 @@ class LocalidadeRoute extends BaseRoute {
       path: '/obter-cidades',
       method: 'GET',
       config: {
-        tags: ['api'],
+        tags: ['api', 'localidade'],
         description: 'Listagem de cidades por estado',
         notes: 'Consulta uma lista de cidade por estado',
         validate: {
