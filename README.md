@@ -22,7 +22,6 @@ AWESOMEAPI_URL_BASE=https://economia.awesomeapi.com.br
 
 Para rodar a aplicação basta executar o comando: `npm run start`
 
-
 ## Rodando os Testes
 
 1. Para rodar os testes é necessário instalar o mocha no contexto global `npm install mocha -g`
@@ -30,4 +29,9 @@ Para rodar a aplicação basta executar o comando: `npm run start`
 
 ## Visualizando a documentação da API
 
-Pra visualizar o swagger da aplicação é necessário rodar a API e acessar a rota: [http://localhost:porta/documentation](http://localhost:<porta>/documentation)
+Para visualizar o swagger da aplicação é necessário rodar a API e acessar a rota: [http://localhost:porta/](http://localhost:<porta>/)
+
+## Publicação
+
+Segue a publicação da API em um servidor no heroku [mochileiroAPI](https://mochileiro.herokuapp.com)
+
