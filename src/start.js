@@ -18,6 +18,7 @@ async function start() {
     },
     grouping: 'tags',
     lang: 'pt',
+    documentationPath: '/'
   }
 
   await app.register([    
